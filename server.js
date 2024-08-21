@@ -116,7 +116,7 @@ const app = express();
 // app.use(cors());
 
 app.get('/rooms', (req, res) => {
-    res.send('it is working')
+    res.send('it is working,cors, and msql2 is installed')
 
     // Room.findAll().then((result) => {
     //     // console.log(result)
