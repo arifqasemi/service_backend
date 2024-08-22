@@ -116,15 +116,15 @@ io.on('connection', (socket) => {
 app.use(cors());
 
 app.get('/rooms', (req, res) => {
-    // res.send('it is working,cors,  msql2 is installed, sequelizze and websocket is ')
+    res.send('it is working,cors,  msql2 is installed, sequelizze and websocket is ')
 
-    Room.findAll().then((result) => {
-        // console.log(result)
-        res.send(result)
+    // Room.findAll().then((result) => {
+    //     // console.log(result)
+    //     res.send(result)
 
-    }).catch((er) => {
-        console.log(er)
-    })
+    // }).catch((er) => {
+    //     console.log(er)
+    // })
 
 
 });
