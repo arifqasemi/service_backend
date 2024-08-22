@@ -8,7 +8,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server);
 const cors = require('cors');
-const Messages = require('./model/messages');
+// const Messages = require('./model/messages');
 
 io.on('connection', (socket) => {
 
