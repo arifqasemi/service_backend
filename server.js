@@ -2,7 +2,7 @@ const express = require('express');
 const { createServer } = require('http');
 const { Server } = require('socket.io');
 // const { Room } = require('./models');
-const { Messages } = require('./models')
+// const { Messages } = require('./models')
 
 const app = express();
 const server = createServer(app);
